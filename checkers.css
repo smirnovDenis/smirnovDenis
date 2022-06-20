@@ -1,0 +1,61 @@
+h1 {
+text-align:  center;
+}
+.board-out-frame{ /* Outside board frame */
+	width: 696px;
+	height: 696px;
+	border: 1px solid #000;
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: #8A4B08;
+}
+.board-inn-frame{ /* Inside board frame */
+	width: 656px;
+	height: 656px;
+	border: 1px solid #000;
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.container{
+	display: flex;
+}
+.checkers-cell { /* Cell conditions */
+ 
+ width: 80px;
+ height: 80px;
+ border: 1px solid #000;
+}
+
+.cell-color-yellow{ /* Yellow cell */
+	background-color: #F3E2A9;
+}
+
+.cell-color-brown{ /* Brown cell */
+	background-color: #8A4B08;
+}
+.figure-black{ /* Black units */
+	width: 60px;
+      height: 60px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      margin: 10px;
+  	  background: #000000;
+}
+.figure-white{ /* White units */
+	width: 60px;
+      height: 60px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      margin: 10px;
+  	  background: #ffffff;
+}
